@@ -1,31 +1,36 @@
-# 🌤️ Weather Finder - React Weather App
+# 🌤️ Weather Finder - Modern React Weather App
 
-A modern, beautiful weather application built with React that allows users to search and view real-time weather information for any city worldwide.
+A stunning, modern weather application built with React, Tailwind CSS, and Framer Motion that provides real-time weather information for any city worldwide with beautiful animations and glassmorphism design.
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
-![Styled Components](https://img.shields.io/badge/Styled--Components-6.1.0-pink)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38bdf8)
+![Framer Motion](https://img.shields.io/badge/Framer--Motion-11.11.17-ff0055)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
 
-- 🔍 Search weather by city name
-- 🌡️ Real-time temperature display in Celsius
+- 🔍 Intuitive city search with real-time results
+- 🌡️ Live temperature display in Celsius
 - 🌅 Sunrise and sunset times
 - 💧 Humidity levels
 - 💨 Wind speed information
 - 🌊 Atmospheric pressure
-- 🎨 Modern glassmorphism UI design
-- ✨ Smooth animations and transitions
+- 🌡️ "Feels like" temperature
+- 🎨 Modern liquid glass UI design
+- ✨ Smooth Framer Motion animations
+- 🌓 Dynamic theme switching (light welcome screen, dark weather display)
 - 📱 Fully responsive design
+- 🎭 Dynamic weather icons based on conditions
 
 ## 🎨 Design Highlights
 
-- Beautiful purple gradient background
-- Glassmorphism effects with backdrop blur
-- Floating and scaling animations
-- Clean, modern typography
-- Intuitive user interface
-- Hover effects on interactive elements
+- **Welcome Screen**: Clean white background with animated floating cloud
+- **Weather Display**: Dark theme with cyan and purple gradient blurs
+- **Glassmorphism Effects**: Backdrop blur and semi-transparent cards
+- **Bento Grid Layout**: Modern card-based information display
+- **Smooth Animations**: Floating icons, fade transitions, and hover effects
+- **Gradient Button**: Beautiful purple-to-pink-to-red gradient
+- **Dynamic Icons**: Weather-specific icons using Lucide React
 
 ## 🚀 Live Demo
 
@@ -34,7 +39,9 @@ Check out the live demo: [Weather Finder](https://Parth-077.github.io/react-weat
 ## 🛠️ Technologies Used
 
 - **React 18** - Frontend framework
-- **Styled Components** - CSS-in-JS styling
+- **Tailwind CSS 3** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Lucide React** - Beautiful icon library
 - **Axios** - HTTP client for API requests
 - **OpenWeatherMap API** - Weather data provider
 
@@ -48,7 +55,7 @@ cd react-weather-app
 
 2. Install dependencies:
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 3. Start the development server:
@@ -68,11 +75,11 @@ npm run deploy
 
 ## 📸 Screenshots
 
-### Home Screen
-Search for any city worldwide to get instant weather updates.
+### Welcome Screen
+Beautiful light-themed welcome screen with animated cloud icon and gradient search button.
 
 ### Weather Display
-View detailed weather information including temperature, conditions, humidity, wind speed, and more.
+Dark-themed weather display with glassmorphism cards showing detailed weather information.
 
 ## 🔑 API Key
 
@@ -86,6 +93,13 @@ This project uses the OpenWeatherMap API. The API key is included for demo purpo
 - `npm start` - Runs the app in development mode
 - `npm run build` - Builds the app for production
 - `npm run deploy` - Deploys the app to GitHub Pages
+
+## 🎯 Key Components
+
+- **Dynamic Theme**: Switches between light and dark themes based on app state
+- **Weather Icons**: Conditional rendering of weather-specific icons
+- **Animated Elements**: Floating animations for icons and smooth transitions
+- **Responsive Layout**: Works seamlessly on all device sizes
 
 ## 🤝 Contributing
 
@@ -103,8 +117,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - Weather data provided by [OpenWeatherMap](https://openweathermap.org/)
-- Icons and design inspiration from modern UI/UX trends
-- Built with ❤️ using React
+- Icons from [Lucide React](https://lucide.dev/)
+- Design inspired by modern glassmorphism and neumorphism trends
+- Built with ❤️ using React, Tailwind CSS, and Framer Motion
 
 ---
 
