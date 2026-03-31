@@ -1,5 +1,4 @@
 # 🌤️ Weather Finder - Modern React Weather App
-
 with all proper location. highly precise 
 A stunning, modern weather application built with React, Tailwind CSS, and Framer Motion that provides real-time weather information for any city worldwide with beautiful animations and glassmorphism design.
 
